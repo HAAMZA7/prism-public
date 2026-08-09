@@ -42,8 +42,8 @@ flowchart TB
         R["REST API (API-first)"]
     end
     subgraph DATA["Données"]
-        DB[("Base") ]
-        Q[("Vecteurs / recherche")]
+        DB[("Base")]
+        Q[("Vecteurs et recherche")]
     end
     APP --> R
     R --> DB
